@@ -1,7 +1,6 @@
 .introducao-bg {
-  background: #000000;
-  color: #ffffff;
-  box-shadow: inset 0px -120px #ffffff;
+  background: var(--cor-12);
+  box-shadow: inset 0px -120px var(--cor-0);
 }
 
 .introducao {
@@ -21,24 +20,12 @@
 
 .introducao h1 {
   margin-bottom: 32px;
-  font-size: 4rem;
-  line-height: 1.125;
-  font-family: "Poppins";
-  font-weight: 600;
-}
-
-.introducao h1 span {
-  color: #ffbb00;
+  color: var(--cor-0);
 }
 
 .introducao p {
   margin-bottom: 20px;
-  font-size: 1.5rem;
-  line-height: 1.5;
-  color: #b2b2b2;
   /* max-width: 40ch; */
-  font-family: "Roboto";
-  font-weight: 400;
 }
 
 .introducao img {

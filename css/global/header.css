@@ -1,5 +1,5 @@
 .header-bg {
-  background: #000000;
+  background: var(--cor-12);
 }
 
 .header {
@@ -16,17 +16,14 @@
 
 .header-menu {
   display: flex;
-  flex-wrap: wrap;
+flex-wrap: wrap;
   gap: 40px;
 }
 
 .header-menu a {
   padding: 16px 0px;
-  color: #ffffff;
   display: inline-block;
-  font-size: 18px;
   position: relative;
-  font-family: "Poppins";
 }
 
 .header-menu a:after {
@@ -36,7 +33,7 @@
   display: block;
   transition: 0.3s;
   position: absolute;
-  background: #ffffff;
+  background: var(--cor-0);
   margin-top: 4px;
 }
 
