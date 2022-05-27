@@ -1,0 +1,25 @@
+.sombra-branca{
+  box-shadow: inset 0px -120px var(--cor-0);
+}
+
+.tecnologia {
+  background: var(--cor-12);
+  padding: 44px 0px;
+  box-shadow: inset 0px -120px var(--cor-0);
+}
+
+.tecnologia-conteudo {
+  align-self: center;
+  padding-bottom: 200px;
+}
+
+.tecnologia-conteudo h2 {
+  color: var(--cor-0);
+  margin-bottom: 2.25rem;
+}
+
+.tecnologia-imagem img {
+  /* height: 100%; */
+  border-radius: 5px;
+  object-fit: cover;
+}

@@ -1,5 +1,12 @@
 /* BTN 
 ****************************/
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0px 20px;
+}
+
 .btn-primario {
   font-size: 1.125rem;
   line-height: 1.33;
@@ -17,3 +24,12 @@
   background: linear-gradient(#f7b900, #d5910a);
 }
 
+.bg-full-preto{
+  background: var(--cor-12);
+}
+
+.grid-2fr{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+}

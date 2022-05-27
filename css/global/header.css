@@ -1,17 +1,10 @@
-.header-bg {
-  background: var(--cor-12);
-}
-
 .header {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
-  max-width: 1200px;
-  box-sizing: border-box;
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 .header-menu {
