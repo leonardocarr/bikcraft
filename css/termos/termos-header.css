@@ -1,0 +1,41 @@
+.titulo-bg {
+  background: var(--cor-11);
+  margin-bottom: 120px;
+}
+
+.titulo {
+  padding: 60px 0px;
+}
+
+.titulo h1 {
+  font-weight: 500;
+}
+
+/* Texto */
+
+.condicoes h2 {
+  padding-bottom: 20px;
+}
+
+.condicoes ul {
+  display: inline-block;
+}
+.condicoes li:nth-child(2) {
+  padding: 28px 0;
+}
+.condicoes li:last-child {
+  padding-bottom: 48px;
+}
+
+.last-ul{
+  margin-bottom: 80px;
+}
+
+@media (max-width:800px){
+  .titulo-bg{
+    margin-bottom: 60px;
+  }
+  .titulo{
+    padding: 60px 20px;
+  }
+}

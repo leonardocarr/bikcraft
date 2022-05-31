@@ -16,8 +16,9 @@
 
   .header-menu a {
     background: var(--cor-11);
-    padding: 12px 16px;
+    padding: 16px 12px;
     border-radius: 4px;
+    margin: 12px 0;
   }
 
   .header-menu a:hover {
@@ -51,13 +52,16 @@
 /* 600PX  
 ***************************************/
 @media (max-width: 600px) {
-  .header-menu {
-    gap: 12px;
-  }
   .introducao h1 {
     font-size: 2rem;
   }
   .introducao p{
     font-size: 1rem;
+  }
+}
+
+@media (max-width:540px){
+  .header img{
+    margin-top: 20px;
   }
 }

@@ -9,12 +9,12 @@
 
 .header-menu {
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
 .header-menu a {
-  padding: 16px 0px;
+  padding: 26px 0px;
   display: inline-block;
   position: relative;
 }
