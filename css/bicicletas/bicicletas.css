@@ -1,0 +1,169 @@
+.bicicletas-bg {
+  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-12) 0%);
+}
+
+.titulo-bg.bike {
+  margin-bottom: 60px;
+}
+
+.bicicletas {
+  padding: 60px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.bicicletas-img {
+  position: relative;
+}
+
+.bicicletas-img span {
+  background: var(--cor-12);
+  border-radius: 4px 0 0 4px;
+  display: inline-block;
+  padding: 8px 16px 8px 8px;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+
+.bicicletas-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bicicletas-informacao {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+  /* align-self: center; */
+}
+
+.bicicletas-informacao h2,
+.bicicletas-informacao p {
+  grid-column: 1/-1;
+}
+
+.bicicletas-informacao h2 {
+  margin-bottom: 20px;
+}
+
+.bicicletas-informacao h2::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 8px;
+  background: var(--cor-p1);
+  margin-bottom: 8px;
+}
+
+.bicicletas-informacao p {
+  margin-bottom: 32px;
+  /* max-width: 45ch; */
+}
+
+/* BTN */
+.btn-primario.seta {
+  display: flex;
+  align-items: center;
+  align-self: end;
+}
+
+.btn-primario.seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url(../../img/icones/seta.svg);
+  transition: 0.2s;
+}
+
+.btn-primario.seta:hover::after {
+  transform: translateX(4px);
+}
+
+.bicicletas-informacao li {
+  display: flex;
+  align-items: center;
+}
+
+.bicicletas-informacao li + li {
+  margin-top: 16px;
+}
+
+.bicicletas-informacao img {
+  width: 24px;
+  margin-right: 8px;
+}
+
+@media (max-width: 1200px) {
+  .titulo,
+  .bicicletas {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .titulo-bg {
+    margin-bottom: 0px;
+  }
+}
+
+@media (max-width: 955px) {
+  .titulo {
+    padding: 40px 40px;
+  }
+  .btn-primario.iconseta > img {
+    display: none;
+  }
+}
+
+@media (max-width: 831px) {
+  .btn-primario {
+    font-size: 1rem;
+    padding: 16px 26px;
+  }
+}
+
+@media (max-width: 800px) {
+  .bicicletas-bg {
+    background: var(--cor-12);
+  }
+  .titulo p {
+    font-size: 1.1rem;
+  }
+  .titulo h1 {
+    font-size: 3rem;
+  }
+
+  .bicicletas {
+    grid-template-columns: 1fr;
+  }
+  .bicicletas-informacao h2 {
+    font-size: 2rem;
+  }
+  .bicicletas-informacao > p {
+    max-width: max-content;
+  }
+  .bicicletas-caracteristicas {
+    grid-template-columns: 1fr;
+  }
+  .btn-primario.iconseta {
+    margin-top: 20px;
+    justify-self: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .bicicletas-informacao {
+    grid-template-columns: 1fr;
+  }
+  .bicicletas ul {
+    font-size: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 32px;
+  }
+  .btn-primario.seta {
+    justify-self: start;
+  }
+}

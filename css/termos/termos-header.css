@@ -27,15 +27,15 @@
   padding-bottom: 48px;
 }
 
-.last-ul{
+.last-ul {
   margin-bottom: 80px;
 }
 
-@media (max-width:800px){
-  .titulo-bg{
+@media (max-width: 800px) {
+  .titulo-bg {
     margin-bottom: 60px;
   }
-  .titulo{
+  .titulo {
     padding: 60px 20px;
   }
 }
