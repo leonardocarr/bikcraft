@@ -1,6 +1,6 @@
 .titulo-bg {
   background: var(--cor-11);
-  margin-bottom: 120px;
+  margin-bottom: 0px;
 }
 
 .titulo {
@@ -13,6 +13,9 @@
 
 /* Texto */
 
+.condicoes {
+  padding-top: 100px;
+}
 .condicoes h2 {
   padding-bottom: 20px;
 }
