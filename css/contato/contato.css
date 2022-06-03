@@ -45,6 +45,10 @@
   padding-left: 28px;
 }
 
+.contato-meios a:hover{
+  color: var(--cor-0);
+}
+
 .contato-meios a:first-child {
   background: url(../../img/icones/email.svg) no-repeat 0px 2px;
   padding-left: 28px;
